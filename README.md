@@ -99,7 +99,7 @@ Submit a pull request, providing a detailed description of your changes and thei
 
 Be responsive to any feedback or review comments during the review process.
 
-Team members 
+# Team members 
 
 • Cláudio Barreira 
 • Kushal sapra
