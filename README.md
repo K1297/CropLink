@@ -4,35 +4,35 @@ CropLink is a decentralized application (DApp) built on the Ethereum blockchain 
 
 # Features
 
-*Farmer Registration: Farmers can register themselves in the DApp by calling the registerAsFarmer() function.
+* Farmer Registration: Farmers can register themselves in the DApp by calling the registerAsFarmer() function.
 
-*Buyer Registration: Buyers can register themselves in the DApp by calling the registerAsBuyer() function.
+* Buyer Registration: Buyers can register themselves in the DApp by calling the registerAsBuyer() function.
 
-*Farmer Verification: Farmers have the option to verify their identity by uploading their government ID through the verifyFarmer() function.
+* Farmer Verification: Farmers have the option to verify their identity by uploading their government ID through the verifyFarmer() function.
 
-*Buyer Verification: Buyers are required to verify their identity by uploading their government ID through the verifyBuyer() function.
+* Buyer Verification: Buyers are required to verify their identity by uploading their government ID through the verifyBuyer() function.
 
-*Treasury Benefits: Verified farmers can claim treasury benefits every month by calling the claimTreasury() function. Each verified farmer can claim up to 0.05 ETH per month from the treasury's total holding, which is initially set to 5 ETH.
+* Treasury Benefits: Verified farmers can claim treasury benefits every month by calling the claimTreasury() function. Each verified farmer can claim up to 0.05 ETH per month from the treasury's total holding, which is initially set to 5 ETH.
 
-*Produce Management: Farmers can add their produce to the sale list by providing the name, quantity, and price of the produce through the addProduce() function.
+* Produce Management: Farmers can add their produce to the sale list by providing the name, quantity, and price of the produce through the addProduce() function.
 
-*Transferring Funds: Buyers can purchase produce from the sale list by calling the purchaseProduce() function and providing the correct amount of funds. The funds are then transferred from the buyer to the farmer's address through the transferFunds() function.
+* Transferring Funds: Buyers can purchase produce from the sale list by calling the purchaseProduce() function and providing the correct amount of funds. The funds are then transferred from the buyer to the farmer's address through the transferFunds() function.
 
-*Chainlink Integration: The DApp integrates with Chainlink to fetch data feeds such as demand, supply, weather information, and truflation data. This integration enhances the functionality and accuracy of the DApp.
+* Chainlink Integration: The DApp integrates with Chainlink to fetch data feeds such as demand, supply, weather information, and truflation data. This integration enhances the functionality and accuracy of the DApp.
 
-*Selling Produce at Market Price: The DApp checks the weather conditions through the checkWeather() function and triggers the selling of produce at market price if heavy rain is detected. The sellProduceAtMarketPrice() function handles the logic for selling the produce at market price and transferring funds to the farmer's address.
+* Selling Produce at Market Price: The DApp checks the weather conditions through the checkWeather() function and triggers the selling of produce at market price if heavy rain is detected. The sellProduceAtMarketPrice() function handles the logic for selling the produce at market price and transferring funds to the farmer's address.
 
-*Chainlink Integration
+# Chainlink Integration
 
 The DApp integrates with Chainlink to fetch various data feeds and enhance its functionality. The following Chainlink oracles and data feeds are used:
 
-*Demand Data: The updateProduceDemand() function triggers a Chainlink oracle to fetch produce demand data. The fulfillProduceDemand() function serves as the callback function for the demand data.
+* Demand Data: The updateProduceDemand() function triggers a Chainlink oracle to fetch produce demand data. The fulfillProduceDemand() function serves as the callback function for the demand data.
 
-*Supply Data: The updateProduceSupply() function triggers a Chainlink oracle to fetch produce supply data. The fulfillProduceSupply() function serves as the callback function for the supply data.
+* Supply Data: The updateProduceSupply() function triggers a Chainlink oracle to fetch produce supply data. The fulfillProduceSupply() function serves as the callback function for the supply data.
 
-*Weather Data: The checkWeather() function triggers a Chainlink oracle to fetch weather data. The fulfillWeather() function serves as the callback function for the weather data. If heavy rain is detected, it calls the sellProduceAtMarketPrice() function.
+* Weather Data: The checkWeather() function triggers a Chainlink oracle to fetch weather data. The fulfillWeather() function serves as the callback function for the weather data. If heavy rain is detected, it calls the sellProduceAtMarketPrice() function.
 
-*Truflation Data: The updateTruflationData() function triggers a Chainlink oracle to fetch Truflation data. The fulfillTruflationData() function serves as the callback function for the Truflation data.
+* Truflation Data: The updateTruflationData() function triggers a Chainlink oracle to fetch Truflation data. The fulfillTruflationData() function serves as the callback function for the Truflation data.
 
 
 # Installation
