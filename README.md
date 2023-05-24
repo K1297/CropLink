@@ -1,5 +1,5 @@
 #                                                CropLink
-#          A agriTech Dapp cultivating prosperity with weather-savvy smart contracts for bountiful selling
+#                  A agriTech Dapp with weather-savvy smart contracts for bountiful selling         
           
 CropLink is a decentralized application (DApp) built on the Ethereum blockchain that facilitates the interaction between farmers and buyers in the agricultural produce market. It allows farmers to register, add their produce for sale, and claim treasury benefits. Buyers can register, purchase produce, and support the local farming community.
 
