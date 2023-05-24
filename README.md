@@ -13,7 +13,7 @@ By incorporating reliable data feeds, Chainlink VRF, Chainlink Keepers, and Chai
 
 Additionally, CropLink utilizes AWS services to enhance the scalability and reliability of our platform, providing a seamless experience for all users.
 
-## CropLink code Repository
+## CropLink code Repositories
 
 # Features
 
