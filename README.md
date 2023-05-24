@@ -15,19 +15,19 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 
 ## CropLink code Repositories
 
-# Features
+## Features
 
-* Registration: Farmers and buyers can register themselves on the platform.
-* Verification: Farmers and buyers can verify their identities to access additional features.
-* Add Produce: Farmers can add their produce, including name, quantity, and price.
-* Produce Listing: Farmers can view and manage their list of produce.
-* Update Demand: Farmers can update the quantity of produce based on real-time demand data retrieved from Chainlink oracles.
-* Update Supply: Farmers can update the quantity of produce based on real-time supply data retrieved from Chainlink oracles.
-* Weather Check: Buyers can check weather conditions through Chainlink oracles.
-* Purchase Produce: Verified buyers can purchase produce securely.
-* Treasury Fund: Verified farmers can claim benefits from the treasury fund.
-* Data Integrity: Ensures the integrity and reliability of real-time data retrieved from Chainlink oracles.
-* Integration with External Data Sources: Integration with additional external data sources to provide comprehensive market insights.
+* **Registration**: Farmers and buyers can register themselves on the platform.
+* **Verification**: Farmers and buyers can verify their identities to access additional features.
+* **Add Produce**: Farmers can add their produce, including name, quantity, and price.
+* **Produce Listing**: Farmers can view and manage their list of produce.
+* **Update Demand**: Farmers can update the quantity of produce based on real-time demand data retrieved from Chainlink oracles.
+* **Update Supply**: Farmers can update the quantity of produce based on real-time supply data retrieved from Chainlink oracles.
+* **Weather Check**: Buyers can check weather conditions through Chainlink oracles.
+* **Purchase Produce**: Verified buyers can purchase produce securely.
+* **Treasury Fund**: Verified farmers can claim benefits from the treasury fund.
+* **Data Integrity**: Ensures the integrity and reliability of real-time data retrieved from Chainlink oracles.
+* **Integration with External Data Sources**: Integration with additional external data sources to provide comprehensive market insights.
 
 ## Chainlink Integration
 
