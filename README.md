@@ -17,25 +17,19 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 
 # Features
 
-* Farmer Registration: Farmers can register themselves in the DApp by calling the registerAsFarmer() function.
+* Registration: Farmers and buyers can register themselves on the platform.
+* Verification: Farmers and buyers can verify their identities to access additional features.
+* Add Produce: Farmers can add their produce, including name, quantity, and price.
+* Produce Listing: Farmers can view and manage their list of produce.
+* Update Demand: Farmers can update the quantity of produce based on real-time demand data retrieved from Chainlink oracles.
+* Update Supply: Farmers can update the quantity of produce based on real-time supply data retrieved from Chainlink oracles.
+* Weather Check: Buyers can check weather conditions through Chainlink oracles.
+* Purchase Produce: Verified buyers can purchase produce securely.
+* Treasury Fund: Verified farmers can claim benefits from the treasury fund.
+* Data Integrity: Ensures the integrity and reliability of real-time data retrieved from Chainlink oracles.
+* Integration with External Data Sources: Integration with additional external data sources to provide comprehensive market insights.
 
-* Buyer Registration: Buyers can register themselves in the DApp by calling the registerAsBuyer() function.
-
-* Farmer Verification: Farmers have the option to verify their identity by uploading their government ID through the verifyFarmer() function.
-
-* Buyer Verification: Buyers are required to verify their identity by uploading their government ID through the verifyBuyer() function.
-
-* Treasury Benefits: Verified farmers can claim treasury benefits every month by calling the claimTreasury() function. Each verified farmer can claim up to 0.05 ETH per month from the treasury's total holding, which is initially set to 5 ETH.
-
-* Produce Management: Farmers can add their produce to the sale list by providing the name, quantity, and price of the produce through the addProduce() function.
-
-* Transferring Funds: Buyers can purchase produce from the sale list by calling the purchaseProduce() function and providing the correct amount of funds. The funds are then transferred from the buyer to the farmer's address through the transferFunds() function.
-
-* Chainlink Integration: The DApp integrates with Chainlink to fetch data feeds such as demand, supply, weather information, and truflation data. This integration enhances the functionality and accuracy of the DApp.
-
-* Selling Produce at Market Price: The DApp checks the weather conditions through the checkWeather() function and triggers the selling of produce at market price if heavy rain is detected. The sellProduceAtMarketPrice() function handles the logic for selling the produce at market price and transferring funds to the farmer's address.
-
-# Chainlink Integration
+## Chainlink Integration
 
 The DApp integrates with Chainlink to fetch various data feeds and enhance its functionality. The following Chainlink oracles and data feeds are used:
 
