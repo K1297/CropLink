@@ -7,8 +7,9 @@
 </div>                                           
                             
           
-CropLink is a decentralized application (DApp) built on the Ethereum blockchain that facilitates the interaction between farmers and buyers in the agricultural produce market. It allows farmers to register, add their produce for sale, and claim treasury benefits. Buyers can register, purchase produce, and support the local farming community.
-
+CropLink is an AgriTech Dapp that revolutionizes the way farmers sell their produce. It provides a decentralized platform where farmers can connect with registered Sellers. Our platform leverages the power of smart contracts and Chainlink oracles to ensure fair and transparent transactions while mitigating the risks associated with unpredictable weather conditions. With the help of Chainlink oracles, CropLink constantly monitors weather patterns, including heavy rainfall that could potentially damage the farmers' produce. In such cases, smart contracts written in solidity automatically activate, enabling farmers to sell their crops to registered Sellers at their desired prices. By incorporating reliable data feeds, Chainlink VRF, Chainlink Keepers, and Chainlink API, CropLink ensures that farmers have access to accurate and real-time information about the prices, demand, and supply of the crops they grow, in a decentralized and secure manner. CropLink simplifies the onboarding process for farmers, who only need a Metamask account to get started. They also have the option to upload their government-authorized ID to verify their identity, unlocking additional benefits such as discounts on raw materials from our treasury fund. On the other hand, Sellers are required to register themselves using official documents authorized by the government, ensuring transparency and authenticity throughout the platform. Additionally, CropLink utilizes AWS services to enhance the scalability and reliability of our platform, providing a seamless experience for all users.
+ 
+ 
 # Features
 
 * Farmer Registration: Farmers can register themselves in the DApp by calling the registerAsFarmer() function.
