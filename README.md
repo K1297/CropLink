@@ -48,6 +48,7 @@ retrieve the required information and feed it into the smart contracts.
 includes storage for storing user data, compute for running backend processes, and networking
 for communication between different components.
 
+# Local Installation
 
 ## Chainlink Integration
 
