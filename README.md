@@ -26,8 +26,6 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 * **Weather Check**: Buyers can check weather conditions through Chainlink oracles.
 * **Purchase Produce**: Verified buyers can purchase produce securely.
 * **Treasury Fund**: Verified farmers can claim benefits from the treasury fund.
-* **Data Integrity**: Ensures the integrity and reliability of real-time data retrieved from Chainlink oracles.
-* **Integration with External Data Sources**: Integration with additional external data sources to provide comprehensive market insights.
 
 ## Chainlink Integration
 
