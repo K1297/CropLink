@@ -52,15 +52,13 @@ for communication between different components.
 
 # Usage
 
-* Farmers can register on the CropLink DApp to participate in the platform by connecting metamask.
-* Buyers can register on the CropLink DApp to access and purchase produce by connecting metamask.
-* Registered farmers can verify their identity by uploading their government ID.
+* Farmers and Buyers can register on the CropLink DApp to participate in the platform by connecting metamask.
+* Registered farmers can verify their identity by uploading their government ID to get verified.
+* Verified farmers can claim monthly treasury benefits.
 * Farmers can list their produce for sale on the CropLink DApp.
 * Buyers can browse and purchase available produce listings.
 * Users can check and receive updates on current weather conditions.
-* Verified farmers can claim monthly treasury benefits.
-* Users can update the demand and supply data for specific produce using Chainlink APIs.
-* Users can update Truflation data using a Chainlink API.
+* Users can get updates on demand and supply of produce.
 
 # Smart Contract Documentation
 
