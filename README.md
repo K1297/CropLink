@@ -13,9 +13,9 @@ By incorporating reliable data feeds, Chainlink VRF, Chainlink Keepers, and Chai
 
 Additionally, CropLink utilizes AWS services to enhance the scalability and reliability of our platform, providing a seamless experience for all users.
 
-## CropLink code Repositories
+# CropLink code Repositories
 
-## Features
+# Features
 
 * **Registration**: Farmers and buyers can register themselves on the platform.
 * **Verification**: Farmers and buyers can verify their identities to access additional features.
@@ -26,6 +26,28 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 * **Weather Check**: Buyers can check weather conditions through Chainlink oracles.
 * **Purchase Produce**: Verified buyers can purchase produce securely.
 * **Treasury Fund**: Verified farmers can claim benefits from the treasury fund.
+
+# Architecture
+
+## Components
+
+* **Frontend**: This is the user interface where farmers and sellers interact with the Dapp. It can be a
+web-based interface accessible through a browser, and users can connect their accounts using a
+tool like MetaMask.
+* **Backend**: The backend consists of smart contracts written in Solidity. It
+includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to
+buy produce, and retrieving price, demand, and supply information from the Chainlink Oracle.
+* **Chainlink Oracle**: The Chainlink Oracle is responsible for fetching external data, such as weather
+information and market prices, and providing it to the smart contracts. It can use Chainlink
+Keepers, Data Feeds, or APIs to retrieve and update data. In this case, the oracle checks weather
+conditions, such as heavy rainfall, which may affect the produce.
+* **Truflation Data**: Truflation Data is an external service that provides accurate and reliable market
+data related to produce prices, demand, and supply. The Chainlink Oracle can use this service to
+retrieve the required information and feed it into the smart contracts.
+* **AWS Services**: AWS provides a range of cloud services that can be utilized by the Dapp. This
+includes storage for storing user data, compute for running backend processes, and networking
+for communication between different components.
+
 
 ## Chainlink Integration
 
