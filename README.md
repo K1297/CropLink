@@ -50,6 +50,23 @@ for communication between different components.
 
 # Local Installation
 
+# Usage
+
+* Farmers can register on the CropLink DApp to participate in the platform by connecting metamask.
+* Buyers can register on the CropLink DApp to access and purchase produce by connecting metamask.
+* Registered farmers can verify their identity by uploading their government ID.
+* Farmers can list their produce for sale on the CropLink DApp.
+* Buyers can browse and purchase available produce listings.
+* Users can check and receive updates on current weather conditions.
+* Verified farmers can claim monthly treasury benefits.
+* Users can update the demand and supply data for specific produce using Chainlink APIs.
+* Users can update Truflation data using a Chainlink API.
+
+
+
+
+Send a message...
+
 ## Chainlink Integration
 
 The DApp integrates with Chainlink to fetch various data feeds and enhance its functionality. The following Chainlink oracles and data feeds are used:
