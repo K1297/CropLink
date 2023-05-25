@@ -65,7 +65,7 @@ for communication between different components.
 
 
 
-Send a message...
+
 
 ## Chainlink Integration
 
