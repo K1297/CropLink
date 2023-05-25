@@ -62,99 +62,36 @@ for communication between different components.
 * Users can update the demand and supply data for specific produce using Chainlink APIs.
 * Users can update Truflation data using a Chainlink API.
 
-
-
-
-
-
-## Chainlink Integration
-
-The DApp integrates with Chainlink to fetch various data feeds and enhance its functionality. The following Chainlink oracles and data feeds are used:
-
-* Demand Data: The updateProduceDemand() function triggers a Chainlink oracle to fetch produce demand data. The fulfillProduceDemand() function serves as the callback function for the demand data.
-
-* Supply Data: The updateProduceSupply() function triggers a Chainlink oracle to fetch produce supply data. The fulfillProduceSupply() function serves as the callback function for the supply data.
-
-* Weather Data: The checkWeather() function triggers a Chainlink oracle to fetch weather data. The fulfillWeather() function serves as the callback function for the weather data. If heavy rain is detected, it calls the sellProduceAtMarketPrice() function.
-
-* Truflation Data: The updateTruflationData() function triggers a Chainlink oracle to fetch Truflation data. The fulfillTruflationData() function serves as the callback function for the Truflation data.
-
-
-# Installation
-
-To deploy and interact with the CropLink DApp, follow these steps:
-
-Install the required dependencies by running npm install.
-
-Deploy the CropLink smart contract to an Ethereum network of your choice using a development tool like Truffle or Remix.
-
-Configure the Chainlink oracles, jobs, and data sources according to your requirements and obtain the necessary API keys.
-
-Update the contract addresses and API keys in the DApp code.
-
-Build and run the frontend application by running npm start.
-
-Access the CropLink DApp through your web browser and connect it to your Ethereum wallet.
-
-# Development
-
-To contribute to the CropLink DApp or modify its functionality, follow these steps:
-
-Clone the repository and navigate to the project directory.
-
-Install the required dependencies by running npm install.
-
-Make the necessary changes to the smart contract and DApp code.
-
-Test the smart contract by running the provided tests with truffle test.
-
-Build and run the frontend application by running npm start.
-
-Verify that the modifications and new features are working as intended.
-
-Submit a pull request detailing the changes you made.
+# Smart Contract Documentation
 
 # Troubleshooting
 
-If you encounter any issues or errors while using the CropLink DApp, please follow these steps to troubleshoot:
+**Metamask Login Issue**
 
-Check that you have the latest version of Node.js and npm installed.
-
-Ensure that your Ethereum wallet is properly configured and connected to the correct network.
-
-Double-check the contract addresses and API keys in the DApp code for accuracy.
-
-Review the error messages or console logs for any relevant information.
-
-Consult the documentation or seek support from the CropLink team for further assistance.
+If you are unable to sign in with Metamask, please ensure that your Metamask wallet is properly configured and has sufficient funds to pay for the transaction fees. Additionally, ensure that you are signed into Metamask and have granted permission for the dapp to access your wallet.
 
 # Contribution Guidelines
+We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
 
-Thank you for considering contributing to the CropLink DApp! To contribute, please follow these guidelines:
+To contribute, please follow the following steps:
 
-Fork the repository and create a new branch for your contribution.
+1. Fork the repository to your own GitHub account:
+2. Create a new branch from the main branch for your changes.
+3. Make your changes and commit them with clear commit messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes into the main branch.
 
-Make your changes and ensure that the code follows the project's coding standards.
-
-Write clear and concise commit messages explaining the purpose of your changes.
-
-Test your changes thoroughly to ensure they do not introduce any regressions.
-
-Submit a pull request, providing a detailed description of your changes and their purpose.
-
-Be responsive to any feedback or review comments during the review process.
-
-# Team members 
-
-• Cláudio Barreira 
-• Kushal sapra
-• Ahmidenwer
-• Suleman Ismaila
+# Team Members
+* Cláudio Barreira
+* Kushal Sapra
+* Ahmed Anwer
+* Suleman Ismaila
+* Anna Kazannik
 
 # Acknowledgements
 
 We would like to acknowledge the following individuals and resources for their contributions and support:
 
-Chainlink for providing the infrastructure and tools for fetching data feeds and integrating them into the CropLink DApp.
+* Chainlink for providing the infrastructure and tools for fetching data feeds and integrating them into the CropLink DApp.
 
-The Ethereum development community for their continuous efforts in advancing decentralized applications and smart contract technology.
+* The Ethereum development community for their continuous efforts in advancing decentralized applications and smart contract technology.
