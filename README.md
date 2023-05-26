@@ -41,9 +41,7 @@ buy produce, and retrieving price, demand, and supply information from the Chain
 information and market prices, and providing it to the smart contracts. It can use Chainlink
 Keepers, Data Feeds, or APIs to retrieve and update data. In this case, the oracle checks weather
 conditions, such as heavy rainfall, which may affect the produce.
-* **Truflation Data**: Truflation Data is an external service that provides accurate and reliable market
-data related to produce prices, demand, and supply. The Chainlink Oracle can use this service to
-retrieve the required information and feed it into the smart contracts.
+* **Truflation Data**: Truflation Data is an external service that provides accurate and reliable market data.
 * **AWS Services**: AWS provides a range of cloud services that can be utilized by the Dapp. This
 includes storage for storing user data, compute for running backend processes, and networking
 for communication between different components.
