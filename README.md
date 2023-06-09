@@ -39,6 +39,7 @@ web-based interface.
 * **CropLink smart contract**: The smart contracts written in Solidity. It includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to buy produce. 
 * **Chainlink**: The Chainlink is responsible for fetching external data, such as weather
 information.
+* **Accuweather**: Accuweather used for fetching weather confitions.
 
 
 # Local Installation
@@ -82,6 +83,6 @@ To contribute, please follow the following steps:
 
 We would like to acknowledge the following individuals and resources for their contributions and support:
 
-* Chainlink for providing the infrastructure and tools for fetching data feeds and integrating them into the CropLink DApp.
+* Chainlink for providing the infrastructure and tools for fetching weather information and integrating them into the CropLink DApp.
 
 * The Ethereum development community for their continuous efforts in advancing decentralized applications and smart contract technology.
