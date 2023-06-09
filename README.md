@@ -7,9 +7,9 @@
 </div>                                           
                             
           
-CropLink is an AgriTech Dapp that revolutionizes the way farmers sell their produce. It provides a decentralized platform where farmers can connect with registered Sellers. Farmers can list & add their produce, including name, quantity, and price for sale. They can view and manage their list of produce. Our platform leverages the power of smart contracts and Chainlink oracles to ensure fair and transparent transactions while mitigating the risks associated with unpredictable weather conditions. With the help of Chainlink oracles, CropLink constantly monitors weather patterns, including heavy rainfall that could potentially damage the farmers' produce. In such cases, smart contracts written in solidity automatically activate, enabling farmers to sell their crops to registered Sellers at their desired prices. 
+CropLink is an AgriTech Dapp that revolutionizes the way farmers sell their produce. It provides a decentralized platform where farmers can connect with registered Sellers. Farmers can list & add their produce, including name, quantity, and price for sale. They can view and manage their list of produce. Our platform leverages the power of smart contracts and Chainlink oracles to ensure fair and transparent transactions while mitigating the risks associated with unpredictable weather conditions. With the help of Chainlink oracles, CropLink constantly monitors weather patterns, including heavy rainfall that could potentially damage the farmers' produce. In such cases, smart contracts written in solidity automatically activate, enabling farmers to sell their crops to registered Sellers.
 
-By incorporating reliable data feeds, Chainlink Keepers, and Chainlink API, CropLink ensures that farmers have access to accurate and real-time information about the prices, demand, and supply of the crops they grow, in a decentralized and secure manner. CropLink simplifies the onboarding process for farmers, who only need a Metamask account to get started. They also have the option to upload their government-authorized ID to verify their identity, unlocking additional benefit of montly claim from our treasury fund. On the other hand, Sellers are required to register themselves using official documents authorized by the government, ensuring transparency and authenticity throughout the platform. 
+CropLink simplifies the onboarding process for farmers, who only need a Metamask account to get started. They also have the option to upload their government-authorized ID to verify their identity, unlocking additional benefit of montly claim from our treasury fund.
 
 Additionally, CropLink utilizes AWS services to enhance the scalability and reliability of our platform, providing a seamless experience for all users.
 
@@ -18,13 +18,12 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 # Features
 
 * **Registration**: Farmers and buyers can register themselves on the platform.
-* **Verification**: Farmers and buyers can verify their identities to access additional features.
+* **Verification**: Farmers and buyers can verify their identities to access additional features like claim from our treasury.
 * **Add Produce**: Farmers can add their produce, including name, quantity, and price.
 * **Produce Listing**: Farmers can view and manage their list of produce.
-* **Update Demand**: Farmers can update the quantity of produce based on real-time demand data retrieved from Chainlink oracles.
-* **Update Supply**: Farmers can update the quantity of produce based on real-time supply data retrieved from Chainlink oracles.
+* **Update Produce**: Farmers can update the quantity of produce based on real-time demand and supply data.
 * **Weather Check**: Buyers can check weather conditions through Chainlink oracles.
-* **Purchase Produce**: Verified buyers can purchase produce securely.
+* **Purchase Produce**: Buyers can purchase produce securely.
 * **Treasury Fund**: Verified farmers can claim benefits from the treasury fund.
 
 # Architecture
@@ -32,19 +31,15 @@ Additionally, CropLink utilizes AWS services to enhance the scalability and reli
 ## Components
 
 * **Frontend**: This is the user interface where farmers and sellers interact with the Dapp. It can be a
-web-based interface accessible through a browser, and users can connect their accounts using a
-tool like MetaMask.
-* **Backend**: The backend consists of smart contracts written in Solidity. It
-includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to
-buy produce, and retrieving price, demand, and supply information from the Chainlink Oracle.
-* **Chainlink Oracle**: The Chainlink Oracle is responsible for fetching external data, such as weather
-information and market prices, and providing it to the smart contracts. It can use Chainlink
-Keepers, Data Feeds, or APIs to retrieve and update data. In this case, the oracle checks weather
-conditions, such as heavy rainfall, which may affect the produce.
-* **Truflation Data**: Truflation Data is an external service that provides accurate and reliable market data.
-* **AWS Services**: AWS provides a range of cloud services that can be utilized by the Dapp. This
-includes storage for storing user data, compute for running backend processes, and networking
-for communication between different components.
+web-based interface.
+* **Sign in with metamask**: Users can connect their accounts using a MetaMask.
+* **Backend**: This is the server-side of the Dapp. 
+* **AWS**: AWS provides for storing user data, and networking for communication between different components.
+* **Dynamo DB**: Dynamo DB for storing user data.
+* **CropLink smart contract**: The smart contracts written in Solidity. It includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to buy produce. 
+* **Chainlink**: The Chainlink is responsible for fetching external data, such as weather
+information.
+
 
 # Local Installation
 
@@ -55,8 +50,7 @@ for communication between different components.
 * Verified farmers can claim monthly treasury benefits.
 * Farmers can list their produce for sale on the CropLink DApp.
 * Buyers can browse and purchase available produce listings.
-* Users can check and receive updates on current weather conditions.
-* Users can get updates on demand and supply of produce.
+* Users can sell their produce in case of heavy rain and receive on current weather conditions.
 
 # Smart Contract Documentation
 
