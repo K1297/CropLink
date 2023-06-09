@@ -44,6 +44,45 @@ information.
 
 # Local Installation
 
+1. Clone the repository
+
+First, you need to clone the repository
+```
+git clone https://github.com/claudioBarreira89/croplink.git
+```
+
+2. Install Dependencies
+
+Install the project's dependencies using Yarn:
+
+```
+yarn install
+```
+
+3. Start the Project
+
+Once all the dependencies are installed, you can start the project:
+
+```
+yarn dev
+```
+
+The project should now be running on `http://localhost:3000`
+
+# Environment Variables
+
+This project uses environment variables for configuration. These variables should be stored in a `.env` file in the root directory of the project.
+
+Here is an example of what your `.env` file should look like:
+
+```
+PORT=3000
+IRON_SESSION_PW=YOUR_VARIABLE
+AWS_ACCESS_KEY_ID=YOUR_VARIABLE
+AWS_SECRET_ACCESS_KEY=YOUR_VARIABLE
+AWS_DEFAULT_REGION=YOUR_VARIABLE
+```
+
 # Usage
 
 * Farmers and Buyers can register on the CropLink DApp to participate in the platform by connecting metamask.
