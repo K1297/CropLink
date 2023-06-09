@@ -55,6 +55,50 @@ information.
 
 # Smart Contract Documentation
 
+## Contract Structure
+The CropLink smart contract is implemented in Solidity and consists of the following main components:
+
+### Structs:
+
+* **Produce**: Represents an agricultural product with properties such as name, quantity, price, sold status, index, and farmer address.
+* **MarketPrice**: Holds the buyer's address and the price they are willing to pay for produce.
+* **WeatherData**: Contains weather condition information and a flag indicating if it's rainy.
+
+### Variables:
+
+* **private constant ORACLE_PAYMENT**: Represents the payment required to use Chainlink oracles.
+* **treasury**: Address of the treasury account where funds are deposited.
+* **treasuryBalance**: Current balance in the treasury.
+* **temperature**: Holds the temperature retrieved from the weather oracle.
+* **link**: Instance of the Chainlink LinkTokenInterface for interacting with the LINK token.
+* **farmerAddresses**: Array of registered farmer addresses.
+* **buyerAddresses**: Array of registered buyer addresses.
+* **farmers**: Mapping to track registered farmers.
+* **buyers**: Mapping to track registered buyers.
+* **farmerVerifications**: Mapping to track verified farmers.
+* **produceList**: Mapping to store produce lists for each farmer.
+* **marketPrices**: Mapping to store market prices set by buyers.
+* **marketPriceVerified**: Mapping to track if a buyer's market price is verified.
+* **requestIdToAddress**: Mapping to link Chainlink request IDs with addresses.
+* **requestIdToIndex**: Mapping to link Chainlink request IDs with produce indexes.
+* **requestIdToWeatherData**: Mapping to store weather data for Chainlink request IDs.
+
+### Constructor:
+
+Initializes the Chainlink token, sets the treasury address, and assigns an initial balance to the treasury.
+Public Functions:
+
+* **registerAsFarmer()**: Allows an address to register as a farmer.
+* **registerAsBuyer()**: Allows an address to register as a buyer.
+* **verifyFarmer()**: Verifies the caller as a registered farmer.
+* **claimTreasury()**: Allows verified farmers to claim treasury benefits.
+* **addProduce(string _name, uint256 _quantity, uint256 _price)**: Adds produce to the list for the calling farmer.
+* **adjustPriceByWeather()**: Returns an adjustment value based on the temperature.
+* **getFarmers()**: Returns an array of registered farmer addresses.
+* **getBuyers()**: Returns an array of registered buyer addresses.
+* **getAllProduceList()**: Returns an array of all produce across all farmers, along with the price adjustment based on weather.
+* **getProduceList(address _farmer)**: Returns an array of produce for the specified farmer,.
+
 # Troubleshooting
 
 **Metamask Login Issue**
