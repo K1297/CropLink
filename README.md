@@ -10,7 +10,7 @@ CropLink is an AgriTech Dapp that revolutionizes the way farmers sell their prod
 
 CropLink simplifies the onboarding process for farmers, who only need a Metamask account to get started. With the help of Chainlink oracles, CropLink constantly monitors weather conditions using Chainlink Automation and, in the event of high temperatures or other adverse conditions that could potentially damage crops, the smart contracts activate automatically. This mechanism enables farmers to sell their crops to registered buyers at a fair price, ensuring they don't bear the brunt of nature's unpredictability.
 
-Additionally, CropLink utilizes AWS services to run Chainlink External Adapter that connects USDA API to Chainlink oracle and provides users with real time demand and supply data of their crops.
+Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Department of Agriculture) API to host an external adapter that allows our hybrid smart contract to connect to a Chainlink Oracle and adjust market prices based on real-time global demand for farm commodities/crops.
 
 # CropLink code Repositories
 
@@ -31,9 +31,11 @@ Additionally, CropLink utilizes AWS services to run Chainlink External Adapter t
 - **Frontend**: This is the user interface where farmers and sellers interact with the Dapp. It can be a
   web-based interface.
 - **Sign in with metamask**: Users can connect their accounts using a MetaMask.
-- **Backend**: This is the server-side of the Dapp.
+- **Backend**: This is the server-side of the Dapp built using Express.js.
 - **AWS**: AWS provides for storing user data, and networking for communication between different components.
-- **Dynamo DB**: Dynamo DB for storing user data.
+- **AWS Dynamo DB**: Dynamo DB for storing all user data and providing a highly scalable and flexible database for future updates
+- **AWS Lambda**: Lambda for seamlessly hosting our external adapter which connects to the USDA API to provide real-time demand data of crops
+- **AWS API Gateway**: API Gateway exposes our Lambda as a RESTful API so the Chainlink Bridge can connect it to the Chainlink Oracle
 - **CropLink smart contract**: The smart contracts are written in Solidity. It includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to buy produce and automated price adjustments based on the weather conditions.
 - **Chainlink**: The Chainlink is responsible for fetching external data, such as weather
   information or supply and demand data from USDA API.
