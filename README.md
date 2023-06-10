@@ -170,3 +170,5 @@ We would like to acknowledge the following individuals and resources for their c
 - Chainlink for providing the infrastructure and tools for fetching weather information and integrating them into the CropLink DApp.
 
 - The Ethereum development community for their continuous efforts in advancing decentralized applications and smart contract technology.
+
+- Amazon for providing DynamoDB, AWS Lambda, and AWS API Gateway. 
