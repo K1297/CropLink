@@ -12,8 +12,6 @@ CropLink simplifies the onboarding process for farmers, who only need a Metamask
 
 Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Department of Agriculture) API to host an external adapter that allows our hybrid smart contract to connect to a Chainlink Oracle and adjust market prices based on real-time global demand for farm commodities/crops.
 
-# CropLink code Repositories
-
 # Features
 
 - **Registration**: Farmers and buyers can register themselves on the platform.
@@ -137,7 +135,7 @@ Public Functions:
 - **getFarmers()**: Returns an array of registered farmer addresses.
 - **getBuyers()**: Returns an array of registered buyer addresses.
 - **getAllProduceList()**: Returns an array of all produce across all farmers, along with the price adjustment based on weather.
-- **getProduceList(address \_farmer)**: Returns an array of produce for the specified farmer,.
+- **getProduceList(address \_farmer)**: Returns an array of produce for the specified farmer.
 
 # Troubleshooting
 
@@ -149,7 +147,9 @@ If you are unable to sign in with Metamask, please ensure that your Metamask wal
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
 
-To contribute, please follow the following steps:
+To contribute, please follow the following steps: ```
+git clone https://github.com/claudioBarreira89/croplink.git
+```
 
 1. Fork the repository to your own GitHub account:
 2. Create a new branch from the main branch for your changes.
