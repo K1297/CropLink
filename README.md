@@ -147,15 +147,13 @@ If you are unable to sign in with Metamask, please ensure that your Metamask wal
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
 
-To contribute, please follow the following steps: ```
-git clone https://github.com/claudioBarreira89/croplink.git
-```
+To contribute, please follow the following steps: 
 
-1. Fork the repository to your own GitHub account:
-2. Create a new branch from the main branch for your changes.
-3. Make your changes and commit them with clear commit messages.
-4. Push your changes to your forked repository.
-5. Open a pull request to merge your changes into the main branch.
+1. Fork the repository to your own GitHub account: https://github.com/claudioBarreira89/croplink.git
+3. Create a new branch from the main branch for your changes.
+4. Make your changes and commit them with clear commit messages.
+5. Push your changes to your forked repository.
+6. Open a pull request to merge your changes into the main branch.
 
 # Team Members
 
