@@ -25,6 +25,7 @@ Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Depart
 - **Track Produce Demand Data**: Farmers and Buyers can track real time produce demand and supply data based on USDA’s Agricultural Resource Management API.
 
 # Architecture
+![01_page-0001](https://github.com/K1297/CropLink/assets/74224236/bb737eb4-85bd-45f7-9a7d-fa39925fce4d)
 
 ## Components
 
