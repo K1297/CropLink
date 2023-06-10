@@ -32,7 +32,6 @@ Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Depart
   web-based interface.
 - **Sign in with metamask**: Users can connect their accounts using a MetaMask.
 - **Backend**: This is the server-side of the Dapp built using Express.js.
-- **AWS**: AWS provides for storing user data, and networking for communication between different components.
 - **AWS Dynamo DB**: Dynamo DB for storing all user data and providing a highly scalable and flexible database for future updates
 - **AWS Lambda**: Lambda for seamlessly hosting our external adapter which connects to the USDA API to provide real-time demand data of crops
 - **AWS API Gateway**: API Gateway exposes our Lambda as a RESTful API so the Chainlink Bridge can connect it to the Chainlink Oracle
