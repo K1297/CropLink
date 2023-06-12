@@ -23,6 +23,7 @@ Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Depart
 - **Track Produce Demand Data**: Farmers and Buyers can track real time produce demand and supply data based on USDA’s Agricultural Resource Management API.
 
 # Architecture
+
 ![01_page-0001](https://github.com/K1297/CropLink/assets/74224236/bb737eb4-85bd-45f7-9a7d-fa39925fce4d)
 
 ## Components
@@ -36,7 +37,7 @@ Additionally, Croplink leverages AWS Lambda, API Gateway and the USDA (US Depart
 - **AWS API Gateway**: API Gateway exposes our Lambda as a RESTful API so the Chainlink Bridge can connect it to the Chainlink Oracle
 - **CropLink smart contract**: The smart contracts are written in Solidity. It includes the core logic of the Dapp, including functions for farmers to sell their produce, sellers to buy produce and automated price adjustments based on the weather conditions.
 - **Chainlink**: The Chainlink is responsible for fetching external data, such as weather
-  information or supply and demand data from USDA API.
+  information or supply and demand data from USDA API through an [external adapter](https://github.com/annkaz/croplink-chainlink-adapter).
 - **Accuweather**: Accuweather is used for fetching weather conditions.
 
 # Local Installation
@@ -147,13 +148,13 @@ If you are unable to sign in with Metamask, please ensure that your Metamask wal
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
 
-To contribute, please follow the following steps: 
+To contribute, please follow the following steps:
 
 1. Fork the repository to your own GitHub account: https://github.com/claudioBarreira89/croplink.git
-3. Create a new branch from the main branch for your changes.
-4. Make your changes and commit them with clear commit messages.
-5. Push your changes to your forked repository.
-6. Open a pull request to merge your changes into the main branch.
+2. Create a new branch from the main branch for your changes.
+3. Make your changes and commit them with clear commit messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes into the main branch.
 
 # Team Members
 
@@ -171,4 +172,4 @@ We would like to acknowledge the following individuals and resources for their c
 
 - The Ethereum development community for their continuous efforts in advancing decentralized applications and smart contract technology.
 
-- Amazon for providing DynamoDB, AWS Lambda, and AWS API Gateway. 
+- Amazon for providing DynamoDB, AWS Lambda, and AWS API Gateway.
