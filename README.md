@@ -146,7 +146,7 @@ If you are unable to sign in with Metamask, please ensure that your Metamask wal
 
 # Contribution Guidelines
 
-We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
+We welcome contributions from anyone who would like to help improve our dapp.
 
 To contribute, please follow the following steps:
 
